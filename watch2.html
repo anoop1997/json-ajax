@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/watch.css">
+
+<script src="js/watch3.js" charset="utf-8"></script>
+<script src="js/ajaxW.js"></script>
+    <title>watch</title>
+  </head>
+  <body style="background-color:#203f4e;">
+    <center>
+    <img src="image\watch.png" alt="watch" height="1000em;">
+      </center>
+      <div class="display" id="view" style="background-color:#23211f; height:435px; width:386px; position:absolute; top:19em; right:35.1em; border:10px solid #d4d7d8;">
+
+        <h3>Music</h3>
+        <div class="pull-right" id="T" style="color: #d4d7d8;  margin-right:1em; font-size: large; margin-top:0.6em;">  </div>
+
+
+        <div class="aud">
+        <img src="image/music.png" class="mlogo" style="border-radius:120px; margin-top: 5em; margin-left:5em;"  >
+      <audio id="audio1" controls style="margin-top: 16px;margin-left: 27px;"><source src="audio/sample.mp3"  /></audio>
+    </div>
+
+
+
+      </div>
+
+      <nav>
+    <a href="watch1.html" class=" current btn btn-info btn-sm" style="border-radius:19px;">
+          <span class="glyphicon glyphicon-send"></span>
+        </a>
+        <a href="watch2.html" class="  btn btn-info btn-sm" style="border-radius:19px; margin-left:1em;">
+              <span class="glyphicon glyphicon-headphones" ></span>
+            </a>
+            <a href="watch3.html" class="btn btn-info btn-sm" style="border-radius:19px; margin-left:1em;">
+                  <span class="glyphicon glyphicon-time"></span></a>
+              </nav>
+
+  </body>
+  <script type="text/javascript">
+    var today = new Date();
+    var tim = today.getHours() + ":" + today.getMinutes();
+    document.getElementById('T').innerHTML=tim;
+
+  </script>
+  <script src="js/watch3.js" charset="utf-8"></script>
+</html>
