@@ -1,0 +1,20 @@
+nav
+{
+  position: absolute;
+  top: 54em;
+  left: 42em;
+
+}
+.display
+{
+  border-radius: 27px;
+}
+
+h3
+{
+  position: absolute;
+  color: #2983c3;
+  top:-0.5em;
+  left:0.2em;
+
+}

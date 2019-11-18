@@ -1,0 +1,66 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+ 
+ background-size: cover;
+
+font-family: "Nunito",sans-serif;
+
+}
+.input{
+text-align: center;
+margin: 100px auto;
+}
+#submit
+{
+padding: 14px 30px;
+font-family: "Nunito",sans-serif;
+font-weight:bold;
+height:2.8em;
+font-size: 18px;
+margin-top: -.2em;
+}
+.input input[type="text"]{
+width: 600px;
+height: 51px;
+padding: 5px 10px;
+background: #e7e7e7;
+border: none;
+border-radius: 1px;
+font-family: "Nunito",sans-serif;
+font-weight:bold;
+font-size: 20px;
+}
+.card{
+width: 50%;
+background: #e7e7e7;
+height: 40vh;
+margin: 50px auto;
+border-radius: 2px;
+}
+.ui-helper-hidden-accessible
+{
+ display: none;
+}
+ul
+{
+ list-style: none;
+}
+.close{
+float: right;
+margin-top: -2px;
+cursor: pointer;
+margin-right: 20px;
+}
+.card h1{
+padding: 5px 0;
+text-align: center;
+}
+.card p{
+text-align: center;
+margin:40px 0;
+font-size:20px;
+}

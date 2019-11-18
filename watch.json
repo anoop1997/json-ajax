@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "Name": "whatsapp",
+      "date": "11:02am",
+      "details": "you have 3 messages"
+    },
+    {
+      "Name": "facebook",
+      "date": "10:03am",
+      "details": "you have 7 messages"
+    },
+    {
+      "Name": "phone",
+      "date": "06:11am",
+      "details": "you have 2 messages"
+    }
+  ]
+}
